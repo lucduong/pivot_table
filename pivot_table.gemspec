@@ -5,9 +5,9 @@ require 'base64'
 Gem::Specification.new do |s|
   s.name        = "pivot_table"
   s.version     = PivotTable::VERSION
-  s.authors     = ["Ed James"]
-  s.email       = Base64.decode64("ZWQuamFtZXMuZW1haWxAZ21haWwuY29t\n")
-  s.homepage    = "https://github.com/edjames/pivot_table"
+  s.authors     = ["Ed James", "Luc Duong"]
+  s.email       = Base64.decode64("bHVjQGU0dS52bg==\n")
+  s.homepage    = "https://github.com/lucduong/pivot_table"
   s.summary     = "pivot_table-#{s.version}"
   s.description = "Transform an ActiveRecord-ish data set into a pivot table of objects"
 
